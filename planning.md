@@ -60,7 +60,7 @@ If a post is too short or vague to reliably apply any label (e.g., a two-word ra
 ## Data Collection Plan
 
 - **Source:** r/summonerschool on Reddit
-- **Method:** Manual collection by browsing Hot, Top (past month), and New feeds
+- **Method:** Manual collection by browsing Hot`(~75 posts)`, Top (past month)`(~75 posts)`, and New feeds`(~50 posts)`
 - **Target:** 200+ labeled examples
 - **Format:** CSV with columns: `post_id`, `title`, `body` (if present), `label`
 - **Collection note:** Collect all 200+ posts before labeling. Read 30–40 first to verify labels apply cleanly, then revise definitions if needed before committing to full annotation.
@@ -119,9 +119,11 @@ I will not use AI to pre-label posts. All 200 annotations will be done by hand.
 
 | Post summary | Options considered | Final label | Reasoning |
 |---|---|---|---|
-| TBD | | | |
-| TBD | | | |
-| TBD | | | |
+|New jungler asking how to identify why they win/lose|advice_request vs discussion|advice_request|Poster is seeking personal improvement guidance; "how do you" framing is rhetorical, not an invitation to debate|
+|Dia4 player explains how joining fights over farming CS helped them climb from Emerald|guide vs discussion vs advice_request|guide|Post teaches a concrete macro concept; "can anyone explain" is rhetorical — reader walks away with actionable insight|
+|Master player returning after 10yr break, frustrated by MMR/matchmaking situation, asking if others relate|advice_request vs discussion|discussion|Poster isn't seeking gameplay improvement advice; inviting shared experiences and commiseration about a structural account problem|
+|Player shares free Hwei spell execution trainer with leaderboard|guide vs discussion|guide|Post shares an actionable learning resource; reader walks away with a tool to improve, no debate opened|
+|Poster asking community what mindset shift helped them climb most as jungler, with structured response template|advice_request vs discussion|discussion|Collecting community experiences/stories, not seeking personal improvement guidance; "I'm curious about" signals debate/sharing intent|
 
 ---
 
