@@ -134,3 +134,9 @@ I will not use AI to pre-label posts. All 200 annotations will be done by hand.
 - [ ] **Inter-annotator reliability** — have one other person label 30+ examples and compute agreement
 
 *Will update planning.md before starting any stretch feature.*
+
+## Notes
+
+In finetuning:
+
+    - was around 
